@@ -28,7 +28,7 @@ $traducciones = [
     'z' => '贼德'
 ];
 
-$letraIngresada = strtolower(trim($_POST['letra'] ?? ''));
+$letraIngresada = strtolower(trim($_POST['letra'] ?? ''));//?? suplanta al isset
 
 echo "<h1>Resultado</h1>";
 
